@@ -1,4 +1,4 @@
-![Legend of Zelda Recipe API](src/Recipe%20API.png)
+![Legend of Zelda Recipe API](src/Recipe%20API%20Logo.png)
 
 This is a Flask API that serves JSON information on The Legend of Zelda: Breath of the Wild (BotW) and Tears of the Kingdom (TotK) recipes, elixirs, and items.
 
