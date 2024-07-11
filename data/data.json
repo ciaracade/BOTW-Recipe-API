@@ -1,0 +1,32 @@
+{
+  "recipes": [
+    {
+      "name": "Spicy Meat Skewer",
+      "ingredients": "Raw Meat, Spicy Pepper"
+    },
+    {
+      "name": "Hasty Elixir",
+      "ingredients": "Hot-Footed Frog, Bokoblin Guts"
+    }
+  ],
+  "elixirs": [
+    {
+      "name": "Enduring Elixir",
+      "effects": "Increase Maximum Stamina"
+    },
+    {
+      "name": "Mighty Elixir",
+      "effects": "Increase Attack Power"
+    }
+  ],
+  "items": [
+    {
+      "name": "Hylian Shroom",
+      "description": "A common mushroom found near trees. Eat it to restore half a heart."
+    },
+    {
+      "name": "Silent Princess",
+      "description": "This lovely flower was said to have been a favorite of the princess of Hyrule."
+    }
+  ]
+}

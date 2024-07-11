@@ -1,23 +1,26 @@
-Breath of the Wild Recipes API
-=====================================================
+![Legend of Zelda Recipe API](src/Recipe%20API.png)
 
-Work in progress
+This is a Flask API that serves JSON information on The Legend of Zelda: Breath of the Wild (BotW) and Tears of the Kingdom (TotK) recipes, elixirs, and items.
 
-Notes:
+## Setup
 
-Deploy using heroku or vercel
-- Heroku is a cloud computing platform that offers backend developers the chance to build and host their applications whilst Vercel is a platform where frontend developers can collaborate and host their static sites.
+1. Install the dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
 
-Use python web scraping to grab data?
-https://www.geeksforgeeks.org/python-web-scraping-tutorial/
+2. Seed the database:
+    ```
+    python seed.py
+    ```
 
-https://automatetheboringstuff.com/2e/chapter14/
+3. Run the application:
+    ```
+    python run.py
+    ```
 
+## API Endpoints
 
-Backend?
-- PostgreSQL
-
-Main Goals
-- make api that calls all edible ingredients used in food
-
-
+- **GET /recipes**: Returns a list of all recipes.
+- **GET /elixirs**: Returns a list of all elixirs.
+- **GET /items**: Returns a list of all items.
